@@ -23,10 +23,10 @@
   width: $sidebar-width
   min-width: $sidebar-min-width
   font-size: $text-size
-  height: $sidebar-height
   flex-direction: column
   border-left: 1px solid $pinkish-grey
   padding-left: $sidebar-left-padding
+  padding-bottom: $sidebar-bottom-padding
 @media screen and (max-width: $adaptive-width)
   .sidebar
     font-size: $adaptive-text
